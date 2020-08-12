@@ -1,35 +1,53 @@
 import React from 'react';
 
+import api from '../../services/api';
+
 import whastappIcon from '../../assets/images/icons/whatsapp.svg';
 
 import './styles.css';
 
-function TeacherItem() {
+export interface Teacher {
+    avatar: string;
+    bio: string;
+    cost: number;
+    id: number;
+    name: string;
+    subject: string;
+    user_id: number;
+    whatsapp: string;
+}
+
+interface TeacherItemProps {
+    teacher: Teacher;
+}
+
+const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
+
+    function handleCreateConnection() {
+        api.post('/connections', { user_id: teacher.id });
+    }
+
     return (
         <article className="teacher-item">
             <header>
-                <img src="https://avatars0.githubusercontent.com/u/42722634?s=460&u=5c21b7044f1bd2e4718146c7c2f69a2578a18d51&v=4" alt="perfil imagem"/>
+                <img src={teacher.avatar} alt={teacher.name} />
                 <div>
-                    <strong>Matheus Afonso</strong>
-                    <span>Química</span>
+                    <strong>{teacher.name}</strong>
+                    <span>{teacher.subject}</span>
                 </div>
             </header>
 
-            <p>
-                Entusiasta das melhores tecnologias de química avançada.
-                <br/><br/>
-                Apaixonado por explodir coisas em laboratório e por mudar a vida das pessoas através de experiências. Mais de 200.000 pessoas já passaram por uma das minhas explosões.
-            </p>
+            <p>{teacher.bio}</p>
 
             <footer>
                 <p>
                     Preço/hora
-                    <strong>R$ 80,00 </strong>
+                    <strong>R$ {teacher.cost} </strong>
                 </p>
-                <button>
+                <a target="_blank" onClick={handleCreateConnection} href={`https://wa.me/${teacher.whatsapp}`}>
                     <img src={whastappIcon} alt="Ícone Whatsapp"/>
                     Entrar em contato
-                </button>
+                </a>
             </footer>
         </article>
     );
