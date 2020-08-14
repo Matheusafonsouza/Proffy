@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-    <img src="https://github.com/Matheusafonsouza/Proffy/blob/master/assets/logo.svg?raw=true" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Matheusafonsouza/Proffy/blob/master/assets/logo.png?raw=true" alt="Logo">
 
 
   <h3 align="center">Proffy</h3>
@@ -13,20 +13,20 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Matheusafonsouza/Ecoleta/issues" style="text-decoration: none">
-    <img alt="Issues" src="https://img.shields.io/github/issues/Matheusafonsouza/ecoleta?color=34CB79" />
+  <a href="https://github.com/Matheusafonsouza/Proffy/issues" style="text-decoration: none">
+    <img alt="Issues" src="https://img.shields.io/github/issues/Matheusafonsouza/Proffy?color=6842C2" />
   </a>
   <a href="#" style="text-decoration: none">
-    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Matheusafonsouza/ecoleta?color=34CB79" />
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Matheusafonsouza/proffy?color=6842C2" />
   </a>
-  <a href="https://github.com/Matheusafonsouza/ecoleta/stargazers" style="text-decoration: none" >
-    <img alt="Stars" src="https://img.shields.io/github/stars/Matheusafonsouza/ecoleta?style=social" />
+  <a href="https://github.com/Matheusafonsouza/proffy/stargazers" style="text-decoration: none" >
+    <img alt="Stars" src="https://img.shields.io/github/stars/Matheusafonsouza/proffy?style=social" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Matheusafonsouza" target="_blank">
-    <img alt="Made by Carlos Miguel" src="https://img.shields.io/badge/made%20by-Matheus_Afonso-informational?color=34CB79">
+    <img alt="Made by Carlos Miguel" src="https://img.shields.io/badge/made%20by-Matheus_Afonso-informational?color=6842C2">
   </a>
   <a href="https://www.linkedin.com/in/matheusafonsouza/" target="_blank" >
     <img alt="Linkedin - Matheus Afonso" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
@@ -48,7 +48,7 @@
 
 ## Sobre o projeto
 
-<img src="https://github.com/Matheusafonsouza/Proffy/blob/master/assets/thumbnail.svg?raw=true" alt="Logo">
+<img src="https://github.com/Matheusafonsouza/Proffy/blob/master/assets/thumbnail.png?raw=true" alt="Logo">
 
 Proffy é um projeto desenvolvido durante a Next Level Week. O objetivo é conectar pessoas e professores para, assim, ajudar no aprendizado.
 
