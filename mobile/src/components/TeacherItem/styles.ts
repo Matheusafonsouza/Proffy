@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
 
   name: {
     fontFamily: 'Archivo_700Bold',
+    maxWidth: 200,
     color: '#32264d',
     fontSize: 20
   },
